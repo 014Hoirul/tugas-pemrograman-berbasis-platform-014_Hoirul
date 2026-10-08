@@ -36,6 +36,6 @@ SQL. Jadi, apabila pengguna memasukkan karakter atau perintah SQL tertentu, inpu
 ### 6. Bagaimana ORM membantu pengembang mengakses database?
 ORM membantu pengembang mengakses database *karena* ORM menyediakan method yang dapat digunakan untuk melakukan operasi database tanpa harus 
 menulis query SQL secara langsung. Pada contoh sebelumnya, penambahan data dilakukan menggunakan method create() pada Prisma. Dengan cara 
-tersebut, pengembang cukup menentukan data yang ingin dimasukkan, sedangkan proses pembuatan query untuk database ditangani oleh ORM.
-
-Selain itu, SQL mentah cocok digunakan ketika query yang dibutuhkan cukup kompleks dan membutuhkan pengaturan langsung terhadap proses pengambilan atau pengolahan data.
+tersebut, pengembang cukup menentukan data yang ingin dimasukkan, sedangkan proses pembuatan query untuk database ditangani oleh ORM. Selain itu, 
+SQL mentah cocok digunakan ketika query yang dibutuhkan cukup kompleks dan membutuhkan pengaturan langsung terhadap proses pengambilan atau 
+pengolahan data.
