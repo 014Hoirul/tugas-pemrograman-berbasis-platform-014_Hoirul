@@ -13,4 +13,26 @@
 
 
 ## Bukti Pengujian
+### GET /api/v1
 ![Hasil Pengujian](./screenshot/tahap-9.1.png)
+
+### GET /api/v1/jadwal?status=aktif 
+![Hasil Pengujian](./screenshot/tahap-9.2.png)
+
+### GET /api/v1/jadwal/abc
+![Hasil Pengujian](./screenshot/tahap-9.3.png)
+
+### GET /api/v1/jadwal/99
+![Hasil Pengujian](./screenshot/tahap-9.4.png)
+
+### POST /api/v1/jadwal dengan body valid
+![Hasil Pengujian](./screenshot/tahap-9.5.png)
+
+### GET /api/v1/jadwal/1/peserta
+![Hasil Pengujian](./screenshot/tahap-9.6.png)
+
+### GET /api/v1/jadwal/1/peserta/103
+![Hasil Pengujian](./screenshot/tahap-9.7.png)
+
+### GET /api/v1/alamat-salah
+![Hasil Pengujian](./screenshot/tahap-9.8.png)
