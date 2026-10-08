@@ -6,8 +6,8 @@ dan response yang diberikan oleh server.
 ## Tabel Hasil Pengujian 
 | No. | Method | Endppoint | Data yang dikirim | Status | Hasil |
 |---:|---|---|---|---:|---|
-| 1. | GET | '/get' | Query parameter 'nama=Hoirul&nim=2024520014' | 200 | Request berhasil dan parameter dikembalikan pada response |
-| 2. | POST | '/post' | JSON '{"nama":"Hoirul","nim":"2024520014"}' | 200 | Request berhasil dan data JSON ditampilkan kembali |
+| 1. | GET | '/get' | URL : 'https://httpbin.org/get?nama=Hoirul&nim=2024520014' | 200 | Request berhasil dan parameter dikembalikan pada response |
+| 2. | POST | '/post' | URL : 'https://httpbin.org/post' Data :'{"nama":"Hoirul","nim":"2024520014"}' | 200 | Request berhasil dan data JSON ditampilkan kembali |
 | 3. | PUT | '/put' | JSON '{"nama":"Hoirul","nim":"2024520014"}' | 200 | Request berhasil dan data JSON ditampilkan kembali |
 | 4. | PATCH | '/patch' | JSON '{"nama":"Hoirul","nim":"2024520014"}' | 200 | Request berhasil dan data JSON ditampilkan kembali |
 | 5. | DELETE | '/delete' | - | 200 | Request DELETE berhasil dan informasi request ditampilkan kembali |
