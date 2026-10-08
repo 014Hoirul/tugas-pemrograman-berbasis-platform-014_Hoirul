@@ -27,3 +27,10 @@ Sedangkan body digunakan untuk menempatkan data di dalam isi request, biasanya d
   "kelas": "TI"
 }
 Jadi, perbedaannya adalah query parameter terlihat pada URL, sedangkan data body dikirim di dalam isi request.
+
+
+## Screenshot Pengujian
+### 1. GET
+
+
+### 2. HEADER
