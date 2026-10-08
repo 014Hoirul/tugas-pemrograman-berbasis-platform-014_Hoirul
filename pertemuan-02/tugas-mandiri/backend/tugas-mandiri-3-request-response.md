@@ -31,6 +31,7 @@ Jadi, perbedaannya adalah query parameter terlihat pada URL, sedangkan data body
 
 ## Screenshot Pengujian
 ### 1. GET
-
+![Hasil Pengujian](./screenshot/TM3-GET.png)
 
 ### 2. HEADER
+![Hasil Pengujian](./screenshot/TM3-HEADER.png)
