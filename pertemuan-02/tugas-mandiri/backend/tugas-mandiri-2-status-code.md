@@ -5,7 +5,7 @@ kesalahan dari server.
 
 ## Tabel Hasil Pengujian
 | Status Code | Arti | Hasil Pengujian | Kapan Digunakan |
-|---:|---|---:|---|
+|---|---|---|---|
 | 200 | OK / berhasil | Server mengembalikan status 200 OK dan tidak ada isi response body | Digunakan ketika request berhasil diproses, misalnya mengambil data berhasil |
 | 201 | Created / berhasil dibuat | Server mengembalikan status 201 Created dan tidak ada isi response body | Digunakan ketika request berhasil membuat data baru, misalnya menambahkan pengguna baru |
 | 400 | Bad Request / permintaan tidak valid | Server mengembalikan status 400 Bad Request dan tidak ada isi response body | Digunakan ketika request dari client memiliki data atau format yang salah |
