@@ -13,4 +13,8 @@ dan response yang diberikan oleh server.
 | 5. | DELETE | '/delete' | URL : 'https://httpbin.org/delete' | 200 | Request DELETE berhasil dan informasi request ditampilkan kembali |
 
 ## Screenshot Pengujian 
-![Hasil Pengujian](./screenshot/TAHAP-9-1.png)
+### GET
+![Hasil Pengujian](./screenshot/TM1-GET.png)
+
+### POST
+![Hasil Pengujian](./screenshot/TM1-POST.png)
