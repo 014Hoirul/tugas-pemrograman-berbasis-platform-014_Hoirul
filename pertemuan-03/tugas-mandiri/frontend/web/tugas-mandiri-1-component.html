@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Mahasiswa - Component</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 32px 16px;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .heading {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .heading h1 {
+      margin-bottom: 8px;
+      font-size: 28px;
+    }
+
+    .heading p {
+      color: #64748b;
+      line-height: 1.5;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      max-width: 540px;
+      margin: 0 auto;
+      padding: 24px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px #0f172a0d;
+    }
+
+    .profile-photo {
+      flex-shrink: 0;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      background: #dbeafe;
+    }
+
+    .profile-info {
+      min-width: 0;
+    }
+
+    .profile-info h2 {
+      margin: 0 0 8px;
+      font-size: 21px;
+      overflow-wrap: anywhere;
+    }
+
+    .nim {
+      margin: 0 0 16px;
+      color: #64748b;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      border: 0;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+
+    @media (max-width: 400px) {
+      body {
+        padding: 24px 12px;
+      }
+
+      .card {
+        gap: 12px;
+        padding: 16px 12px;
+      }
+
+      .profile-photo {
+        width: 72px;
+        height: 72px;
+      }
+
+      .profile-info h2 {
+        font-size: 17px;
+      }
+
+      .nim {
+        font-size: 12px;
+      }
+
+      .btn {
+        padding: 9px 11px;
+        font-size: 13px;
+      }
+
+      .heading h1 {
+        font-size: 23px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="heading">
+      <h1>Profil Mahasiswa</h1>
+      <p>Contoh kartu profil dengan pendekatan Component-Based CSS.</p>
+    </header>
+
+    <article class="card">
+      <img
+        class="profile-photo"
+        src="https://i.pravatar.cc/200?img=12"
+        alt="Foto profil Hoirul Umam"
+      >
+
+      <div class="profile-info">
+        <h2>Hoirul Umam</h2>
+        <p class="nim">NIM: 2024520014</p>
+        <a class="btn" href="https://github.com/014Hoirul">
+          Lihat Profil
+        </a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
