@@ -39,3 +39,15 @@ memudahkan pengaturan jarak, warna, ukuran, dan responsivitas langsung melalui c
 ## 7. Kesimpulan
 Kedua pendekatan dapat menghasilkan kartu profil yang responsif. Component-Based CSS lebih terstruktur untuk mengelola gaya komponen yang digunakan berulang kali, sedangkan Utility-First CSS lebih praktis untuk menyusun dan menyesuaikan tampilan secara langsung. 
 
+## Bukti
+### A. COMPONENT - LAPTOP
+![hasil pengujian](screenshot/TM1-COMPONENT-LAPTOP.png)
+
+### B. COMPONENT - 360PX
+![hasil pengujian](screenshot/TM1-COMPONENT-360PX.png)
+
+### C. UTILITY - LAPTOP
+![hasil pengujian](screenshot/TM1-UTILITY-LAPTOP.png)
+
+### D. UTILITY - 360PX
+![hasil pengujian](screenshot/TM1-UTILITY-360PX.png)
